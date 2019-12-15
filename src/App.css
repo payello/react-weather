@@ -19,6 +19,27 @@
   color: white;
 }
 
+.card__container {
+  display: flex;
+  margin: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(5, 5, 4, 0.2), 0 0 0 2px rgba(5, 4, 5, 0.2);
+  border-radius: 5px;
+  color: #4a4a4a;
+  max-width: 100%;
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+  width: 33%;
+}
+
+.inline {
+  display: inline-block;
+  margin-right: 1rem;
+}
 .App-link {
   color: #61dafb;
 }
